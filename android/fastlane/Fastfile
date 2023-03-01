@@ -1,0 +1,49 @@
+
+default_platform(:android)
+
+platform :android do
+
+         desc 'Build the Android application.'
+           lane :build do
+             gradle(task: 'clean', project_dir: './')
+             gradle(task: 'assemble', build_type: 'release', project_dir: './')
+
+             #Copy file build to apk folder
+             copy_artifacts(
+               artifacts: ["*/build/outputs/apk/release/*.apk"],
+               target_path: "./fastlane/apk/"
+             )
+             copy_artifacts(
+               artifacts: ["*/build/outputs/apk/release/*.json"],
+               target_path: "./fastlane/apk/"
+             )
+         end
+
+        desc 'Build and upload to Deploygate.'
+        lane :uploadToDeploygate do
+        deploygate(
+          api_token: "aff502f1-5d05-4ada-9736-6a0161a865ac",
+          user: "taikhoantest",
+          apk: ENV["APPCENTER_DISTRIBUTE_APK"],
+          message: "Build #{lane_context[SharedValues::BUILD_NUMBER]}",
+        )
+        end
+
+
+        desc 'Build and upload to App Center.'
+        lane :uploadToAppcenter do
+        appcenter_upload(
+            api_token: ENV["APPCENTER_API_TOKEN"],
+            owner_name: ENV["APPCENTER_OWNER_NAME"],
+            app_name: ENV["APPCENTER_APP_NAME"],
+            apk: ENV["APPCENTER_DISTRIBUTE_APK"]
+            )
+        end
+
+  desc "Build and push a new build to FireBase App Distribution"
+  lane :uploadAPK do
+    build
+#     uploadToAppcenter
+    uploadToDeploygate
+  end
+end

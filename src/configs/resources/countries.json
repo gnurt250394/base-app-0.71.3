@@ -1,0 +1,1746 @@
+[ 
+  {
+    "name": "Afghanistan (‫افغانستان‬‎)",
+    "iso2": "af",
+    "code": "+93",
+    "priority": 0,
+    "areaCodes": null
+  },
+  {
+    "name": "Albania (Shqipëri)",
+    "iso2": "al",
+    "code": "+355",
+    "priority": 0,
+    "areaCodes": null
+  },
+  {
+    "name": "Algeria (‫الجزائر‬‎)",
+    "iso2": "dz",
+    "code": "+213",
+    "priority": 0,
+    "areaCodes": null
+  },
+  {
+    "name": "American Samoa",
+    "iso2": "as",
+    "code": "+1684",
+    "priority": 0,
+    "areaCodes": null
+  },
+  {
+    "name": "Andorra",
+    "iso2": "ad",
+    "code": "+376",
+    "priority": 0,
+    "areaCodes": null
+  },
+  {
+    "name": "Angola",
+    "iso2": "ao",
+    "code": "+244",
+    "priority": 0,
+    "areaCodes": null
+  },
+  {
+    "name": "Anguilla",
+    "iso2": "ai",
+    "code": "+1264",
+    "priority": 0,
+    "areaCodes": null
+  },
+  {
+    "name": "Antigua and Barbuda",
+    "iso2": "ag",
+    "code": "+1268",
+    "priority": 0,
+    "areaCodes": null
+  },
+  {
+    "name": "Argentina",
+    "iso2": "ar",
+    "code": "+54",
+    "priority": 0,
+    "areaCodes": null
+  },
+  {
+    "name": "Armenia (Հայաստան)",
+    "iso2": "am",
+    "code": "+374",
+    "priority": 0,
+    "areaCodes": null
+  },
+  {
+    "name": "Aruba",
+    "iso2": "aw",
+    "code": "+297",
+    "priority": 0,
+    "areaCodes": null
+  },
+  {
+    "name": "Australia",
+    "iso2": "au",
+    "code": "+61",
+    "priority": 0,
+    "areaCodes": null
+  },
+  {
+    "name": "Austria (Österreich)",
+    "iso2": "at",
+    "code": "+43",
+    "priority": 0,
+    "areaCodes": null
+  },
+  {
+    "name": "Azerbaijan (Azərbaycan)",
+    "iso2": "az",
+    "code": "+994",
+    "priority": 0,
+    "areaCodes": null
+  },
+  {
+    "name": "Bahamas",
+    "iso2": "bs",
+    "code": "+1242",
+    "priority": 0,
+    "areaCodes": null
+  },
+  {
+    "name": "Bahrain (‫البحرين‬‎)",
+    "iso2": "bh",
+    "code": "+973",
+    "priority": 0,
+    "areaCodes": null
+  },
+  {
+    "name": "Bangladesh (বাংলাদেশ)",
+    "iso2": "bd",
+    "code": "+880",
+    "priority": 0,
+    "areaCodes": null
+  },
+  {
+    "name": "Barbados",
+    "iso2": "bb",
+    "code": "+1246",
+    "priority": 0,
+    "areaCodes": null
+  },
+  {
+    "name": "Belarus (Беларусь)",
+    "iso2": "by",
+    "code": "+375",
+    "priority": 0,
+    "areaCodes": null
+  },
+  {
+    "name": "Belgium (België)",
+    "iso2": "be",
+    "code": "+32",
+    "priority": 0,
+    "areaCodes": null
+  },
+  {
+    "name": "Belize",
+    "iso2": "bz",
+    "code": "+501",
+    "priority": 0,
+    "areaCodes": null
+  },
+  {
+    "name": "Benin (Bénin)",
+    "iso2": "bj",
+    "code": "+229",
+    "priority": 0,
+    "areaCodes": null
+  },
+  {
+    "name": "Bermuda",
+    "iso2": "bm",
+    "code": "+1441",
+    "priority": 0,
+    "areaCodes": null
+  },
+  {
+    "name": "Bhutan (འབྲུག)",
+    "iso2": "bt",
+    "code": "+975",
+    "priority": 0,
+    "areaCodes": null
+  },
+  {
+    "name": "Bolivia",
+    "iso2": "bo",
+    "code": "+591",
+    "priority": 0,
+    "areaCodes": null
+  },
+  {
+    "name": "Bosnia and Herzegovina (Босна и Херцеговина)",
+    "iso2": "ba",
+    "code": "+387",
+    "priority": 0,
+    "areaCodes": null
+  },
+  {
+    "name": "Botswana",
+    "iso2": "bw",
+    "code": "+267",
+    "priority": 0,
+    "areaCodes": null
+  },
+  {
+    "name": "Brazil (Brasil)",
+    "iso2": "br",
+    "code": "+55",
+    "priority": 0,
+    "areaCodes": null
+  },
+  {
+    "name": "British Indian Ocean Territory",
+    "iso2": "io",
+    "code": "+246",
+    "priority": 0,
+    "areaCodes": null
+  },
+  {
+    "name": "British Virgin Islands",
+    "iso2": "vg",
+    "code": "+1284",
+    "priority": 0,
+    "areaCodes": null
+  },
+  {
+    "name": "Brunei",
+    "iso2": "bn",
+    "code": "+673",
+    "priority": 0,
+    "areaCodes": null
+  },
+  {
+    "name": "Bulgaria (България)",
+    "iso2": "bg",
+    "code": "+359",
+    "priority": 0,
+    "areaCodes": null
+  },
+  {
+    "name": "Burkina Faso",
+    "iso2": "bf",
+    "code": "+226",
+    "priority": 0,
+    "areaCodes": null
+  },
+  {
+    "name": "Burundi (Uburundi)",
+    "iso2": "bi",
+    "code": "+257",
+    "priority": 0,
+    "areaCodes": null
+  },
+  {
+    "name": "Cambodia (កម្ពុជា)",
+    "iso2": "kh",
+    "code": "+855",
+    "priority": 0,
+    "areaCodes": null
+  },
+  {
+    "name": "Cameroon (Cameroun)",
+    "iso2": "cm",
+    "code": "+237",
+    "priority": 0,
+    "areaCodes": null
+  },
+  {
+    "name": "Canada",
+    "iso2": "ca",
+    "code": "+1",
+    "priority": 1,
+    "areaCodes": [
+      "204",
+      "226",
+      "236",
+      "249",
+      "250",
+      "289",
+      "306",
+      "343",
+      "365",
+      "387",
+      "403",
+      "416",
+      "418",
+      "431",
+      "437",
+      "438",
+      "450",
+      "506",
+      "514",
+      "519",
+      "548",
+      "579",
+      "581",
+      "587",
+      "604",
+      "613",
+      "639",
+      "647",
+      "672",
+      "705",
+      "709",
+      "742",
+      "778",
+      "780",
+      "782",
+      "807",
+      "819",
+      "825",
+      "867",
+      "873",
+      "902",
+      "905"
+    ]
+  },
+  {
+    "name": "Cape Verde (Kabu Verdi)",
+    "iso2": "cv",
+    "code": "+238",
+    "priority": 0,
+    "areaCodes": null
+  },
+  {
+    "name": "Caribbean Netherlands",
+    "iso2": "bq",
+    "code": "+599",
+    "priority": 1,
+    "areaCodes": null
+  },
+  {
+    "name": "Cayman Islands",
+    "iso2": "ky",
+    "code": "+1345",
+    "priority": 0,
+    "areaCodes": null
+  },
+  {
+    "name": "Central African Republic (République centrafricaine)",
+    "iso2": "cf",
+    "code": "+236",
+    "priority": 0,
+    "areaCodes": null
+  },
+  {
+    "name": "Chad (Tchad)",
+    "iso2": "td",
+    "code": "+235",
+    "priority": 0,
+    "areaCodes": null
+  },
+  {
+    "name": "Chile",
+    "iso2": "cl",
+    "code": "+56",
+    "priority": 0,
+    "areaCodes": null
+  },
+  {
+    "name": "China (中国)",
+    "iso2": "cn",
+    "code": "+86",
+    "priority": 0,
+    "areaCodes": null
+  },
+  {
+    "name": "Christmas Island",
+    "iso2": "cx",
+    "code": "+61",
+    "priority": 2,
+    "areaCodes": null
+  },
+  {
+    "name": "Cocos (Keeling) Islands",
+    "iso2": "cc",
+    "code": "+61",
+    "priority": 1,
+    "areaCodes": null
+  },
+  {
+    "name": "Colombia",
+    "iso2": "co",
+    "code": "+57",
+    "priority": 0,
+    "areaCodes": null
+  },
+  {
+    "name": "Comoros (‫جزر القمر‬‎)",
+    "iso2": "km",
+    "code": "+269",
+    "priority": 0,
+    "areaCodes": null
+  },
+  {
+    "name": "Congo (DRC) (Jamhuri ya Kidemokrasia ya Kongo)",
+    "iso2": "cd",
+    "code": "+243",
+    "priority": 0,
+    "areaCodes": null
+  },
+  {
+    "name": "Congo (Republic) (Congo-Brazzaville)",
+    "iso2": "cg",
+    "code": "+242",
+    "priority": 0,
+    "areaCodes": null
+  },
+  {
+    "name": "Cook Islands",
+    "iso2": "ck",
+    "code": "+682",
+    "priority": 0,
+    "areaCodes": null
+  },
+  {
+    "name": "Costa Rica",
+    "iso2": "cr",
+    "code": "+506",
+    "priority": 0,
+    "areaCodes": null
+  },
+  {
+    "name": "Côte d’Ivoire",
+    "iso2": "ci",
+    "code": "+225",
+    "priority": 0,
+    "areaCodes": null
+  },
+  {
+    "name": "Croatia (Hrvatska)",
+    "iso2": "hr",
+    "code": "+385",
+    "priority": 0,
+    "areaCodes": null
+  },
+  {
+    "name": "Cuba",
+    "iso2": "cu",
+    "code": "+53",
+    "priority": 0,
+    "areaCodes": null
+  },
+  {
+    "name": "Curaçao",
+    "iso2": "cw",
+    "code": "+599",
+    "priority": 0,
+    "areaCodes": null
+  },
+  {
+    "name": "Cyprus (Κύπρος)",
+    "iso2": "cy",
+    "code": "+357",
+    "priority": 0,
+    "areaCodes": null
+  },
+  {
+    "name": "Czech Republic (Česká republika)",
+    "iso2": "cz",
+    "code": "+420",
+    "priority": 0,
+    "areaCodes": null
+  },
+  {
+    "name": "Denmark (Danmark)",
+    "iso2": "dk",
+    "code": "+45",
+    "priority": 0,
+    "areaCodes": null
+  },
+  {
+    "name": "Djibouti",
+    "iso2": "dj",
+    "code": "+253",
+    "priority": 0,
+    "areaCodes": null
+  },
+  {
+    "name": "Dominica",
+    "iso2": "dm",
+    "code": "+1767",
+    "priority": 0,
+    "areaCodes": null
+  },
+  {
+    "name": "Dominican Republic (República Dominicana)",
+    "iso2": "do",
+    "code": "+1",
+    "priority": 2,
+    "areaCodes": [
+      "809",
+      "829",
+      "849"
+    ]
+  },
+  {
+    "name": "Ecuador",
+    "iso2": "ec",
+    "code": "+593",
+    "priority": 0,
+    "areaCodes": null
+  },
+  {
+    "name": "Egypt (‫مصر‬‎)",
+    "iso2": "eg",
+    "code": "+20",
+    "priority": 0,
+    "areaCodes": null
+  },
+  {
+    "name": "El Salvador",
+    "iso2": "sv",
+    "code": "+503",
+    "priority": 0,
+    "areaCodes": null
+  },
+  {
+    "name": "Equatorial Guinea (Guinea Ecuatorial)",
+    "iso2": "gq",
+    "code": "+240",
+    "priority": 0,
+    "areaCodes": null
+  },
+  {
+    "name": "Eritrea",
+    "iso2": "er",
+    "code": "+291",
+    "priority": 0,
+    "areaCodes": null
+  },
+  {
+    "name": "Estonia (Eesti)",
+    "iso2": "ee",
+    "code": "+372",
+    "priority": 0,
+    "areaCodes": null
+  },
+  {
+    "name": "Ethiopia",
+    "iso2": "et",
+    "code": "+251",
+    "priority": 0,
+    "areaCodes": null
+  },
+  {
+    "name": "Falkland Islands (Islas Malvinas)",
+    "iso2": "fk",
+    "code": "+500",
+    "priority": 0,
+    "areaCodes": null
+  },
+  {
+    "name": "Faroe Islands (Føroyar)",
+    "iso2": "fo",
+    "code": "+298",
+    "priority": 0,
+    "areaCodes": null
+  },
+  {
+    "name": "Fiji",
+    "iso2": "fj",
+    "code": "+679",
+    "priority": 0,
+    "areaCodes": null
+  },
+  {
+    "name": "Finland (Suomi)",
+    "iso2": "fi",
+    "code": "+358",
+    "priority": 0,
+    "areaCodes": null
+  },
+  {
+    "name": "France",
+    "iso2": "fr",
+    "code": "+33",
+    "priority": 0,
+    "areaCodes": null
+  },
+  {
+    "name": "French Guiana (Guyane française)",
+    "iso2": "gf",
+    "code": "+594",
+    "priority": 0,
+    "areaCodes": null
+  },
+  {
+    "name": "French Polynesia (Polynésie française)",
+    "iso2": "pf",
+    "code": "+689",
+    "priority": 0,
+    "areaCodes": null
+  },
+  {
+    "name": "Gabon",
+    "iso2": "ga",
+    "code": "+241",
+    "priority": 0,
+    "areaCodes": null
+  },
+  {
+    "name": "Gambia",
+    "iso2": "gm",
+    "code": "+220",
+    "priority": 0,
+    "areaCodes": null
+  },
+  {
+    "name": "Georgia (საქართველო)",
+    "iso2": "ge",
+    "code": "+995",
+    "priority": 0,
+    "areaCodes": null
+  },
+  {
+    "name": "Germany (Deutschland)",
+    "iso2": "de",
+    "code": "+49",
+    "priority": 0,
+    "areaCodes": null
+  },
+  {
+    "name": "Ghana (Gaana)",
+    "iso2": "gh",
+    "code": "+233",
+    "priority": 0,
+    "areaCodes": null
+  },
+  {
+    "name": "Gibraltar",
+    "iso2": "gi",
+    "code": "+350",
+    "priority": 0,
+    "areaCodes": null
+  },
+  {
+    "name": "Greece (Ελλάδα)",
+    "iso2": "gr",
+    "code": "+30",
+    "priority": 0,
+    "areaCodes": null
+  },
+  {
+    "name": "Greenland (Kalaallit Nunaat)",
+    "iso2": "gl",
+    "code": "+299",
+    "priority": 0,
+    "areaCodes": null
+  },
+  {
+    "name": "Grenada",
+    "iso2": "gd",
+    "code": "+1473",
+    "priority": 0,
+    "areaCodes": null
+  },
+  {
+    "name": "Guadeloupe",
+    "iso2": "gp",
+    "code": "+590",
+    "priority": 0,
+    "areaCodes": null
+  },
+  {
+    "name": "Guam",
+    "iso2": "gu",
+    "code": "+1671",
+    "priority": 0,
+    "areaCodes": null
+  },
+  {
+    "name": "Guatemala",
+    "iso2": "gt",
+    "code": "+502",
+    "priority": 0,
+    "areaCodes": null
+  },
+  {
+    "name": "Guernsey",
+    "iso2": "gg",
+    "code": "+44",
+    "priority": 1,
+    "areaCodes": null
+  },
+  {
+    "name": "Guinea (Guinée)",
+    "iso2": "gn",
+    "code": "+224",
+    "priority": 0,
+    "areaCodes": null
+  },
+  {
+    "name": "Guinea-Bissau (Guiné Bissau)",
+    "iso2": "gw",
+    "code": "+245",
+    "priority": 0,
+    "areaCodes": null
+  },
+  {
+    "name": "Guyana",
+    "iso2": "gy",
+    "code": "+592",
+    "priority": 0,
+    "areaCodes": null
+  },
+  {
+    "name": "Haiti",
+    "iso2": "ht",
+    "code": "+509",
+    "priority": 0,
+    "areaCodes": null
+  },
+  {
+    "name": "Honduras",
+    "iso2": "hn",
+    "code": "+504",
+    "priority": 0,
+    "areaCodes": null
+  },
+  {
+    "name": "Hong Kong (香港)",
+    "iso2": "hk",
+    "code": "+852",
+    "priority": 0,
+    "areaCodes": null
+  },
+  {
+    "name": "Hungary (Magyarország)",
+    "iso2": "hu",
+    "code": "+36",
+    "priority": 0,
+    "areaCodes": null
+  },
+  {
+    "name": "Iceland (Ísland)",
+    "iso2": "is",
+    "code": "+354",
+    "priority": 0,
+    "areaCodes": null
+  },
+  {
+    "name": "India (भारत)",
+    "iso2": "in",
+    "code": "+91",
+    "priority": 0,
+    "areaCodes": null
+  },
+  {
+    "name": "Indonesia",
+    "iso2": "id",
+    "code": "+62",
+    "priority": 0,
+    "areaCodes": null
+  },
+  {
+    "name": "Iran (‫ایران‬‎)",
+    "iso2": "ir",
+    "code": "+98",
+    "priority": 0,
+    "areaCodes": null
+  },
+  {
+    "name": "Iraq (‫العراق‬‎)",
+    "iso2": "iq",
+    "code": "+964",
+    "priority": 0,
+    "areaCodes": null
+  },
+  {
+    "name": "Ireland",
+    "iso2": "ie",
+    "code": "+353",
+    "priority": 0,
+    "areaCodes": null
+  },
+  {
+    "name": "Isle of Man",
+    "iso2": "im",
+    "code": "+44",
+    "priority": 2,
+    "areaCodes": null
+  },
+  {
+    "name": "Israel (‫ישראל‬‎)",
+    "iso2": "il",
+    "code": "+972",
+    "priority": 0,
+    "areaCodes": null
+  },
+  {
+    "name": "Italy (Italia)",
+    "iso2": "it",
+    "code": "+39",
+    "priority": 0,
+    "areaCodes": null
+  },
+  {
+    "name": "Jamaica",
+    "iso2": "jm",
+    "code": "+1876",
+    "priority": 0,
+    "areaCodes": null
+  },
+  {
+    "name": "Japan (日本)",
+    "iso2": "jp",
+    "code": "+81",
+    "priority": 0,
+    "areaCodes": null
+  },
+  {
+    "name": "Jersey",
+    "iso2": "je",
+    "code": "+44",
+    "priority": 3,
+    "areaCodes": null
+  },
+  {
+    "name": "Jordan (‫الأردن‬‎)",
+    "iso2": "jo",
+    "code": "+962",
+    "priority": 0,
+    "areaCodes": null
+  },
+  {
+    "name": "Kazakhstan (Казахстан)",
+    "iso2": "kz",
+    "code": "+77",
+    "priority": 1,
+    "areaCodes": null
+  },
+  {
+    "name": "Kenya",
+    "iso2": "ke",
+    "code": "+254",
+    "priority": 0,
+    "areaCodes": null
+  },
+  {
+    "name": "Kiribati",
+    "iso2": "ki",
+    "code": "+686",
+    "priority": 0,
+    "areaCodes": null
+  },
+  {
+    "name": "Kuwait (‫الكويت‬‎)",
+    "iso2": "kw",
+    "code": "+965",
+    "priority": 0,
+    "areaCodes": null
+  },
+  {
+    "name": "Kyrgyzstan (Кыргызстан)",
+    "iso2": "kg",
+    "code": "+996",
+    "priority": 0,
+    "areaCodes": null
+  },
+  {
+    "name": "Laos (ລາວ)",
+    "iso2": "la",
+    "code": "+856",
+    "priority": 0,
+    "areaCodes": null
+  },
+  {
+    "name": "Latvia (Latvija)",
+    "iso2": "lv",
+    "code": "+371",
+    "priority": 0,
+    "areaCodes": null
+  },
+  {
+    "name": "Lebanon (‫لبنان‬‎)",
+    "iso2": "lb",
+    "code": "+961",
+    "priority": 0,
+    "areaCodes": null
+  },
+  {
+    "name": "Lesotho",
+    "iso2": "ls",
+    "code": "+266",
+    "priority": 0,
+    "areaCodes": null
+  },
+  {
+    "name": "Liberia",
+    "iso2": "lr",
+    "code": "+231",
+    "priority": 0,
+    "areaCodes": null
+  },
+  {
+    "name": "Libya (‫ليبيا‬‎)",
+    "iso2": "ly",
+    "code": "+218",
+    "priority": 0,
+    "areaCodes": null
+  },
+  {
+    "name": "Liechtenstein",
+    "iso2": "li",
+    "code": "+423",
+    "priority": 0,
+    "areaCodes": null
+  },
+  {
+    "name": "Lithuania (Lietuva)",
+    "iso2": "lt",
+    "code": "+370",
+    "priority": 0,
+    "areaCodes": null
+  },
+  {
+    "name": "Luxembourg",
+    "iso2": "lu",
+    "code": "+352",
+    "priority": 0,
+    "areaCodes": null
+  },
+  {
+    "name": "Macau (澳門)",
+    "iso2": "mo",
+    "code": "+853",
+    "priority": 0,
+    "areaCodes": null
+  },
+  {
+    "name": "Macedonia (FYROM) (Македонија)",
+    "iso2": "mk",
+    "code": "+389",
+    "priority": 0,
+    "areaCodes": null
+  },
+  {
+    "name": "Madagascar (Madagasikara)",
+    "iso2": "mg",
+    "code": "+261",
+    "priority": 0,
+    "areaCodes": null
+  },
+  {
+    "name": "Malawi",
+    "iso2": "mw",
+    "code": "+265",
+    "priority": 0,
+    "areaCodes": null
+  },
+  {
+    "name": "Malaysia",
+    "iso2": "my",
+    "code": "+60",
+    "priority": 0,
+    "areaCodes": null
+  },
+  {
+    "name": "Maldives",
+    "iso2": "mv",
+    "code": "+960",
+    "priority": 0,
+    "areaCodes": null
+  },
+  {
+    "name": "Mali",
+    "iso2": "ml",
+    "code": "+223",
+    "priority": 0,
+    "areaCodes": null
+  },
+  {
+    "name": "Malta",
+    "iso2": "mt",
+    "code": "+356",
+    "priority": 0,
+    "areaCodes": null
+  },
+  {
+    "name": "Marshall Islands",
+    "iso2": "mh",
+    "code": "+692",
+    "priority": 0,
+    "areaCodes": null
+  },
+  {
+    "name": "Martinique",
+    "iso2": "mq",
+    "code": "+596",
+    "priority": 0,
+    "areaCodes": null
+  },
+  {
+    "name": "Mauritania (‫موريتانيا‬‎)",
+    "iso2": "mr",
+    "code": "+222",
+    "priority": 0,
+    "areaCodes": null
+  },
+  {
+    "name": "Mauritius (Moris)",
+    "iso2": "mu",
+    "code": "+230",
+    "priority": 0,
+    "areaCodes": null
+  },
+  {
+    "name": "Mayotte",
+    "iso2": "yt",
+    "code": "+262",
+    "priority": 1,
+    "areaCodes": null
+  },
+  {
+    "name": "Mexico (México)",
+    "iso2": "mx",
+    "code": "+52",
+    "priority": 0,
+    "areaCodes": null
+  },
+  {
+    "name": "Micronesia",
+    "iso2": "fm",
+    "code": "+691",
+    "priority": 0,
+    "areaCodes": null
+  },
+  {
+    "name": "Moldova (Republica Moldova)",
+    "iso2": "md",
+    "code": "+373",
+    "priority": 0,
+    "areaCodes": null
+  },
+  {
+    "name": "Monaco",
+    "iso2": "mc",
+    "code": "+377",
+    "priority": 0,
+    "areaCodes": null
+  },
+  {
+    "name": "Mongolia (Монгол)",
+    "iso2": "mn",
+    "code": "+976",
+    "priority": 0,
+    "areaCodes": null
+  },
+  {
+    "name": "Montenegro (Crna Gora)",
+    "iso2": "me",
+    "code": "+382",
+    "priority": 0,
+    "areaCodes": null
+  },
+  {
+    "name": "Montserrat",
+    "iso2": "ms",
+    "code": "+1664",
+    "priority": 0,
+    "areaCodes": null
+  },
+  {
+    "name": "Morocco (‫المغرب‬‎)",
+    "iso2": "ma",
+    "code": "+212",
+    "priority": 0,
+    "areaCodes": null
+  },
+  {
+    "name": "Mozambique (Moçambique)",
+    "iso2": "mz",
+    "code": "+258",
+    "priority": 0,
+    "areaCodes": null
+  },
+  {
+    "name": "Myanmar (Burma)",
+    "iso2": "mm",
+    "code": "+95",
+    "priority": 0,
+    "areaCodes": null
+  },
+  {
+    "name": "Namibia (Namibië)",
+    "iso2": "na",
+    "code": "+264",
+    "priority": 0,
+    "areaCodes": null
+  },
+  {
+    "name": "Nauru",
+    "iso2": "nr",
+    "code": "+674",
+    "priority": 0,
+    "areaCodes": null
+  },
+  {
+    "name": "Nepal (नेपाल)",
+    "iso2": "np",
+    "code": "+977",
+    "priority": 0,
+    "areaCodes": null
+  },
+  {
+    "name": "Netherlands (Nederland)",
+    "iso2": "nl",
+    "code": "+31",
+    "priority": 0,
+    "areaCodes": null
+  },
+  {
+    "name": "New Caledonia (Nouvelle-Calédonie)",
+    "iso2": "nc",
+    "code": "+687",
+    "priority": 0,
+    "areaCodes": null
+  },
+  {
+    "name": "New Zealand",
+    "iso2": "nz",
+    "code": "+64",
+    "priority": 0,
+    "areaCodes": null
+  },
+  {
+    "name": "Nicaragua",
+    "iso2": "ni",
+    "code": "+505",
+    "priority": 0,
+    "areaCodes": null
+  },
+  {
+    "name": "Niger (Nijar)",
+    "iso2": "ne",
+    "code": "+227",
+    "priority": 0,
+    "areaCodes": null
+  },
+  {
+    "name": "Nigeria",
+    "iso2": "ng",
+    "code": "+234",
+    "priority": 0,
+    "areaCodes": null
+  },
+  {
+    "name": "Niue",
+    "iso2": "nu",
+    "code": "+683",
+    "priority": 0,
+    "areaCodes": null
+  },
+  {
+    "name": "Norfolk Island",
+    "iso2": "nf",
+    "code": "+672",
+    "priority": 0,
+    "areaCodes": null
+  },
+  {
+    "name": "North Korea (조선 민주주의 인민 공화국)",
+    "iso2": "kp",
+    "code": "+850",
+    "priority": 0,
+    "areaCodes": null
+  },
+  {
+    "name": "Northern Mariana Islands",
+    "iso2": "mp",
+    "code": "+1670",
+    "priority": 0,
+    "areaCodes": null
+  },
+  {
+    "name": "Norway (Norge)",
+    "iso2": "no",
+    "code": "+47",
+    "priority": 0,
+    "areaCodes": null
+  },
+  {
+    "name": "Oman (‫عُمان‬‎)",
+    "iso2": "om",
+    "code": "+968",
+    "priority": 0,
+    "areaCodes": null
+  },
+  {
+    "name": "Pakistan (‫پاکستان‬‎)",
+    "iso2": "pk",
+    "code": "+92",
+    "priority": 0,
+    "areaCodes": null
+  },
+  {
+    "name": "Palau",
+    "iso2": "pw",
+    "code": "+680",
+    "priority": 0,
+    "areaCodes": null
+  },
+  {
+    "name": "Palestine (‫فلسطين‬‎)",
+    "iso2": "ps",
+    "code": "+970",
+    "priority": 0,
+    "areaCodes": null
+  },
+  {
+    "name": "Panama (Panamá)",
+    "iso2": "pa",
+    "code": "+507",
+    "priority": 0,
+    "areaCodes": null
+  },
+  {
+    "name": "Papua New Guinea",
+    "iso2": "pg",
+    "code": "+675",
+    "priority": 0,
+    "areaCodes": null
+  },
+  {
+    "name": "Paraguay",
+    "iso2": "py",
+    "code": "+595",
+    "priority": 0,
+    "areaCodes": null
+  },
+  {
+    "name": "Peru (Perú)",
+    "iso2": "pe",
+    "code": "+51",
+    "priority": 0,
+    "areaCodes": null
+  },
+  {
+    "name": "Philippines",
+    "iso2": "ph",
+    "code": "+63",
+    "priority": 0,
+    "areaCodes": null
+  },
+  {
+    "name": "Poland (Polska)",
+    "iso2": "pl",
+    "code": "+48",
+    "priority": 0,
+    "areaCodes": null
+  },
+  {
+    "name": "Portugal",
+    "iso2": "pt",
+    "code": "+351",
+    "priority": 0,
+    "areaCodes": null
+  },
+  {
+    "name": "Puerto Rico",
+    "iso2": "pr",
+    "code": "+1",
+    "priority": 3,
+    "areaCodes": [
+      "787",
+      "939"
+    ]
+  },
+  {
+    "name": "Qatar (‫قطر‬‎)",
+    "iso2": "qa",
+    "code": "+974",
+    "priority": 0,
+    "areaCodes": null
+  },
+  {
+    "name": "Réunion (La Réunion)",
+    "iso2": "re",
+    "code": "+262",
+    "priority": 0,
+    "areaCodes": null
+  },
+  {
+    "name": "Romania (România)",
+    "iso2": "ro",
+    "code": "+40",
+    "priority": 0,
+    "areaCodes": null
+  },
+  {
+    "name": "Russia (Россия)",
+    "iso2": "ru",
+    "code": "+7",
+    "priority": 0,
+    "areaCodes": null
+  },
+  {
+    "name": "Rwanda",
+    "iso2": "rw",
+    "code": "+250",
+    "priority": 0,
+    "areaCodes": null
+  },
+  {
+    "name": "Saint Barthélemy (Saint-Barthélemy)",
+    "iso2": "bl",
+    "code": "+590",
+    "priority": 1,
+    "areaCodes": null
+  },
+  {
+    "name": "Saint Helena",
+    "iso2": "sh",
+    "code": "+290",
+    "priority": 0,
+    "areaCodes": null
+  },
+  {
+    "name": "Saint Kitts and Nevis",
+    "iso2": "kn",
+    "code": "+1869",
+    "priority": 0,
+    "areaCodes": null
+  },
+  {
+    "name": "Saint Lucia",
+    "iso2": "lc",
+    "code": "+1758",
+    "priority": 0,
+    "areaCodes": null
+  },
+  {
+    "name": "Saint Martin (Saint-Martin (partie française))",
+    "iso2": "mf",
+    "code": "+590",
+    "priority": 2,
+    "areaCodes": null
+  },
+  {
+    "name": "Saint Pierre and Miquelon (Saint-Pierre-et-Miquelon)",
+    "iso2": "pm",
+    "code": "+508",
+    "priority": 0,
+    "areaCodes": null
+  },
+  {
+    "name": "Saint Vincent and the Grenadines",
+    "iso2": "vc",
+    "code": "+1784",
+    "priority": 0,
+    "areaCodes": null
+  },
+  {
+    "name": "Samoa",
+    "iso2": "ws",
+    "code": "+685",
+    "priority": 0,
+    "areaCodes": null
+  },
+  {
+    "name": "San Marino",
+    "iso2": "sm",
+    "code": "+378",
+    "priority": 0,
+    "areaCodes": null
+  },
+  {
+    "name": "São Tomé and Príncipe (São Tomé e Príncipe)",
+    "iso2": "st",
+    "code": "+239",
+    "priority": 0,
+    "areaCodes": null
+  },
+  {
+    "name": "Saudi Arabia (‫المملكة العربية السعودية‬‎)",
+    "iso2": "sa",
+    "code": "+966",
+    "priority": 0,
+    "areaCodes": null
+  },
+  {
+    "name": "Senegal (Sénégal)",
+    "iso2": "sn",
+    "code": "+221",
+    "priority": 0,
+    "areaCodes": null
+  },
+  {
+    "name": "Serbia (Србија)",
+    "iso2": "rs",
+    "code": "+381",
+    "priority": 0,
+    "areaCodes": null
+  },
+  {
+    "name": "Seychelles",
+    "iso2": "sc",
+    "code": "+248",
+    "priority": 0,
+    "areaCodes": null
+  },
+  {
+    "name": "Sierra Leone",
+    "iso2": "sl",
+    "code": "+232",
+    "priority": 0,
+    "areaCodes": null
+  },
+  {
+    "name": "Singapore",
+    "iso2": "sg",
+    "code": "+65",
+    "priority": 0,
+    "areaCodes": null
+  },
+  {
+    "name": "Sint Maarten",
+    "iso2": "sx",
+    "code": "+1721",
+    "priority": 0,
+    "areaCodes": null
+  },
+  {
+    "name": "Slovakia (Slovensko)",
+    "iso2": "sk",
+    "code": "+421",
+    "priority": 0,
+    "areaCodes": null
+  },
+  {
+    "name": "Slovenia (Slovenija)",
+    "iso2": "si",
+    "code": "+386",
+    "priority": 0,
+    "areaCodes": null
+  },
+  {
+    "name": "Solomon Islands",
+    "iso2": "sb",
+    "code": "+677",
+    "priority": 0,
+    "areaCodes": null
+  },
+  {
+    "name": "Somalia (Soomaaliya)",
+    "iso2": "so",
+    "code": "+252",
+    "priority": 0,
+    "areaCodes": null
+  },
+  {
+    "name": "South Africa",
+    "iso2": "za",
+    "code": "+27",
+    "priority": 0,
+    "areaCodes": null
+  },
+  {
+    "name": "South Korea (대한민국)",
+    "iso2": "kr",
+    "code": "+82",
+    "priority": 0,
+    "areaCodes": null
+  },
+  {
+    "name": "South Sudan (‫جنوب السودان‬‎)",
+    "iso2": "ss",
+    "code": "+211",
+    "priority": 0,
+    "areaCodes": null
+  },
+  {
+    "name": "Spain (España)",
+    "iso2": "es",
+    "code": "+34",
+    "priority": 0,
+    "areaCodes": null
+  },
+  {
+    "name": "Sri Lanka (ශ්‍රී ලංකාව)",
+    "iso2": "lk",
+    "code": "+94",
+    "priority": 0,
+    "areaCodes": null
+  },
+  {
+    "name": "Sudan (‫السودان‬‎)",
+    "iso2": "sd",
+    "code": "+249",
+    "priority": 0,
+    "areaCodes": null
+  },
+  {
+    "name": "Suriname",
+    "iso2": "sr",
+    "code": "+597",
+    "priority": 0,
+    "areaCodes": null
+  },
+  {
+    "name": "Svalbard and Jan Mayen",
+    "iso2": "sj",
+    "code": "+47",
+    "priority": 1,
+    "areaCodes": null
+  },
+  {
+    "name": "Swaziland",
+    "iso2": "sz",
+    "code": "+268",
+    "priority": 0,
+    "areaCodes": null
+  },
+  {
+    "name": "Sweden (Sverige)",
+    "iso2": "se",
+    "code": "+46",
+    "priority": 0,
+    "areaCodes": null
+  },
+  {
+    "name": "Switzerland (Schweiz)",
+    "iso2": "ch",
+    "code": "+41",
+    "priority": 0,
+    "areaCodes": null
+  },
+  {
+    "name": "Syria (‫سوريا‬‎)",
+    "iso2": "sy",
+    "code": "+963",
+    "priority": 0,
+    "areaCodes": null
+  },
+  {
+    "name": "Taiwan (台灣)",
+    "iso2": "tw",
+    "code": "+886",
+    "priority": 0,
+    "areaCodes": null
+  },
+  {
+    "name": "Tajikistan",
+    "iso2": "tj",
+    "code": "+992",
+    "priority": 0,
+    "areaCodes": null
+  },
+  {
+    "name": "Tanzania",
+    "iso2": "tz",
+    "code": "+255",
+    "priority": 0,
+    "areaCodes": null
+  },
+  {
+    "name": "Thailand (ไทย)",
+    "iso2": "th",
+    "code": "+66",
+    "priority": 0,
+    "areaCodes": null
+  },
+  {
+    "name": "Timor-Leste",
+    "iso2": "tl",
+    "code": "+670",
+    "priority": 0,
+    "areaCodes": null
+  },
+  {
+    "name": "Togo",
+    "iso2": "tg",
+    "code": "+228",
+    "priority": 0,
+    "areaCodes": null
+  },
+  {
+    "name": "Tokelau",
+    "iso2": "tk",
+    "code": "+690",
+    "priority": 0,
+    "areaCodes": null
+  },
+  {
+    "name": "Tonga",
+    "iso2": "to",
+    "code": "+676",
+    "priority": 0,
+    "areaCodes": null
+  },
+  {
+    "name": "Trinidad and Tobago",
+    "iso2": "tt",
+    "code": "+1868",
+    "priority": 0,
+    "areaCodes": null
+  },
+  {
+    "name": "Tunisia (‫تونس‬‎)",
+    "iso2": "tn",
+    "code": "+216",
+    "priority": 0,
+    "areaCodes": null
+  },
+  {
+    "name": "Turkey (Türkiye)",
+    "iso2": "tr",
+    "code": "+90",
+    "priority": 0,
+    "areaCodes": null
+  },
+  {
+    "name": "Turkmenistan",
+    "iso2": "tm",
+    "code": "+993",
+    "priority": 0,
+    "areaCodes": null
+  },
+  {
+    "name": "Turks and Caicos Islands",
+    "iso2": "tc",
+    "code": "+1649",
+    "priority": 0,
+    "areaCodes": null
+  },
+  {
+    "name": "Tuvalu",
+    "iso2": "tv",
+    "code": "+688",
+    "priority": 0,
+    "areaCodes": null
+  },
+  {
+    "name": "U.S. Virgin Islands",
+    "iso2": "vi",
+    "code": "+1340",
+    "priority": 0,
+    "areaCodes": null
+  },
+  {
+    "name": "Uganda",
+    "iso2": "ug",
+    "code": "+256",
+    "priority": 0,
+    "areaCodes": null
+  },
+  {
+    "name": "Ukraine (Україна)",
+    "iso2": "ua",
+    "code": "+380",
+    "priority": 0,
+    "areaCodes": null
+  },
+  {
+    "name": "United Arab Emirates (‫الإمارات العربية المتحدة‬‎)",
+    "iso2": "ae",
+    "code": "+971",
+    "priority": 0,
+    "areaCodes": null
+  },  
+  {
+    "name": "United Kingdom",
+    "iso2": "gb",
+    "code": "+44",
+    "priority": 0,
+    "areaCodes": null
+  },
+    {
+    "name": "United States",
+    "iso2": "us",
+    "code": "+1",
+    "priority": 0,
+    "areaCodes": null
+  },
+  {
+    "name": "Uruguay",
+    "iso2": "uy",
+    "code": "+598",
+    "priority": 0,
+    "areaCodes": null
+  },
+  {
+    "name": "Uzbekistan (Oʻzbekiston)",
+    "iso2": "uz",
+    "code": "+998",
+    "priority": 0,
+    "areaCodes": null
+  },
+  {
+    "name": "Vanuatu",
+    "iso2": "vu",
+    "code": "+678",
+    "priority": 0,
+    "areaCodes": null
+  },
+  {
+    "name": "Vatican City (Città del Vaticano)",
+    "iso2": "va",
+    "code": "+39",
+    "priority": 1,
+    "areaCodes": null
+  },
+  {
+    "name": "Venezuela",
+    "iso2": "ve",
+    "code": "+58",
+    "priority": 0,
+    "areaCodes": null
+  },
+  {
+    "name": "Vietnam (Việt Nam)",
+    "iso2": "vn",
+    "code": "+84",
+    "priority": 0,
+    "areaCodes": null
+  },
+  {
+    "name": "Wallis and Futuna",
+    "iso2": "wf",
+    "code": "+681",
+    "priority": 0,
+    "areaCodes": null
+  },
+  {
+    "name": "Western Sahara (‫الصحراء الغربية‬‎)",
+    "iso2": "eh",
+    "code": "+212",
+    "priority": 1,
+    "areaCodes": null
+  },
+  {
+    "name": "Yemen (‫اليمن‬‎)",
+    "iso2": "ye",
+    "code": "+967",
+    "priority": 0,
+    "areaCodes": null
+  },
+  {
+    "name": "Zambia",
+    "iso2": "zm",
+    "code": "+260",
+    "priority": 0,
+    "areaCodes": null
+  },
+  {
+    "name": "Zimbabwe",
+    "iso2": "zw",
+    "code": "+263",
+    "priority": 0,
+    "areaCodes": null
+  },
+  {
+    "name": "Åland Islands",
+    "iso2": "ax",
+    "code": "+358",
+    "priority": 1,
+    "areaCodes": null
+  }
+]

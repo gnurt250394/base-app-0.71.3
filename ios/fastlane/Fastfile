@@ -1,0 +1,58 @@
+MY_APP_ID = "com.order.seoullife"
+SCHEME_DEV = "healthmedical"
+SCHEME_PRODUCTION = "healthmedical"
+
+update_fastlane
+
+default_platform(:ios)
+
+platform :ios do
+    desc 'Fetch certificates and provisioning profiles'
+      lane :certificates do
+        match(app_identifier: MY_APP_ID)
+    end
+
+    desc 'Fetch certificates. Build the iOS application.'
+    lane :build do
+      certificates
+      gym(
+       clean: true,
+        scheme: SCHEME_DEV,
+        workspace: "./healthmedical.xcworkspace",
+         output_directory: "./fastlane/ipa/",
+         output_name: "healthmedical.ipa",
+         export_options: { compileBitcode: false},
+        # project: './ios/YourAppName.xcodeproj', # Use this command if you don't have an iOS .xcworkspace file.
+        export_method: 'development'
+      )
+     end
+
+    desc 'Fetch certificates, build and upload to Deploygate.'
+    lane :uploadToDeploygate do
+      deploygate(
+        api_token: "aff502f1-5d05-4ada-9736-6a0161a865ac",
+        user: "taikhoantest",
+        ipa:  ENV["APPCENTER_DISTRIBUTE_IPA"],
+        message: "Build #{lane_context[SharedValues::BUILD_NUMBER]}",
+      )
+    end
+
+    desc 'Fetch certificates, build and upload to App Center.'
+    lane :uploadToAppcenter do
+      appcenter_upload(
+        api_token: ENV["APPCENTER_API_TOKEN"],
+        owner_name: ENV["APPCENTER_OWNER_NAME"],
+        app_name: ENV["APPCENTER_APP_NAME"],
+        ipa: ENV["APPCENTER_DISTRIBUTE_IPA"]
+      )
+    end
+
+  desc "Push a new build to Fabric and FireBase App Distribution"
+  lane :uploadIPA do
+    build
+#     uploadToAppcenter
+    uploadToDeploygate
+  end
+
+
+end

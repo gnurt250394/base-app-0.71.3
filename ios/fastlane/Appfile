@@ -1,0 +1,13 @@
+# app_identifier("[[APP_IDENTIFIER]]") # The bundle identifier of your app
+# apple_id("[[APPLE_ID]]") # Your Apple email address
+
+
+
+app_identifier("com.order.seoullife") # The bundle identifier of your app
+apple_id("gnurt250394@gmail.com") # Your Apple email address
+#In case your account has multiple teams, add the following lines:
+# itc_team_id("123456789") # App Store Connect Team ID
+team_name("hoang trung") # Developer Portal Team Name
+team_id("957PVJ39LH") # Developer Portal Team ID
+# For more information about the Appfile, see:
+#     https://docs.fastlane.tools/advanced/#appfile
