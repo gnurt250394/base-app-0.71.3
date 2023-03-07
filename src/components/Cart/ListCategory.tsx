@@ -11,7 +11,7 @@ import ItemCartCategoryColaborator from 'components/Cart/ItemCartCategoryColabor
 import ItemCartCategory from './ItemCartCategory';
 import ModalBottom from 'components/ModalBase/ModalBottom';
 import ModalChangePrice from './ModalChangePrice';
-import useModalAnimation from 'hooks/useModalAnimation';
+import useModal from 'hooks/useModal';
 import {UserCustomerPaginate} from 'res/type/Customer';
 import {useNavigation} from '@react-navigation/native';
 import {MainParamList} from 'navigation/service/NavigationParams';
@@ -27,7 +27,7 @@ interface ListCategoryProps {
 
 const ListCategory = (props: ListCategoryProps) => {
   const navigation = useNavigation<BaseUseNavigationProps<MainParamList>>();
-  const [visible, open, close] = useModalAnimation();
+  const [visible, open, close] = useModal();
   const [data, setData] = useState<CartCategoryProps[]>(props?.data || []);
   const [product, setProduct] = useState<CartCategoryProps>();
   const userProfile = useSelector((state: RootReducer) => state.userProfile);

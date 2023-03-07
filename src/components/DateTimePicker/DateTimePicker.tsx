@@ -1,7 +1,7 @@
 import BottomModal from 'components/ModalBase/ModalBottom';
 import ButtonLinear from 'elements/Buttons/ButtonLinear';
 import Text from 'elements/Text';
-import useModalAnimation from 'hooks/useModalAnimation';
+import useModal from 'hooks/useModal';
 import moment from 'moment';
 import React, {
   useRef,
@@ -44,11 +44,12 @@ const DateTimePicker = React.memo(
     }, [props.value]);
 
     const onPressClose = () => {
-      if (props.onPressClose)
+      if (props.onPressClose) {
         props.onPressClose(
           date,
           moment(date).format(props.format || 'DD/MM/YYYY'),
         );
+      }
       props.onCloseModal && props.onCloseModal();
     };
 

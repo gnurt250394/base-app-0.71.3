@@ -1,10 +1,6 @@
 import * as React from 'react';
-import {View, StyleSheet} from 'react-native';
+import {StyleSheet} from 'react-native';
 import messaging from '@react-native-firebase/messaging';
-import useEnums from 'apollo/logic/useEnums';
-import {useSelector} from 'hooks/useSelector';
-import {getFirebaseTopics} from 'utils/other-utils';
-import NotificationApi from 'network/apis/notification/NotificationApi';
 import useNotification from 'screens/Common/notification/useNotification';
 
 interface NotificationConfigProps {
@@ -12,7 +8,6 @@ interface NotificationConfigProps {
 }
 
 const NotificationConfig = ({children}: NotificationConfigProps) => {
-  useEnums();
   const {onOpen, checkPermission} = useNotification();
 
   React.useEffect(() => {

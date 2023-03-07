@@ -8,7 +8,7 @@ import InputApp from 'elements/InputApp';
 import Switch from 'elements/Switch';
 import Text from 'elements/Text';
 import TextInput from 'elements/TextInput';
-import useModalAnimation from 'hooks/useModalAnimation';
+import useModal from 'hooks/useModal';
 import * as React from 'react';
 import {memo, useState} from 'react';
 import {View, StyleSheet} from 'react-native';
@@ -29,14 +29,13 @@ interface HeaderSearchProps {
 }
 
 const HeaderSearch = (props: HeaderSearchProps) => {
-  const [visible, open, close] = useModalAnimation();
+  const [visible, open, close] = useModal();
   const [code, setCode] = useState('');
   const [status, setStatus] = useState('');
   const [dateStart, setStartDate] = useState('');
   const [dateEnd, setEndDate] = useState('');
-  const [isVisibleDateStart, openDateStart, closeDateStart] =
-    useModalAnimation();
-  const [isVisibleDateEnd, openDateEnd, closeDateEnd] = useModalAnimation();
+  const [isVisibleDateStart, openDateStart, closeDateStart] = useModal();
+  const [isVisibleDateEnd, openDateEnd, closeDateEnd] = useModal();
 
   const _onSearch = () => {
     props.onSearch && props.onSearch({code, status, dateStart, dateEnd});

@@ -1,7 +1,7 @@
 import React, {memo} from 'react';
 import {createStackNavigator} from '@react-navigation/stack';
 import {Routes} from 'configs';
-import HomeScreen from 'screens/Common/home/HomeScreen';
+import HomeScreen from 'screens/home/HomeScreen';
 
 const Stack = createStackNavigator();
 

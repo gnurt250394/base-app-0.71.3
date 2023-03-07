@@ -1,5 +1,4 @@
 import {RoleType} from 'common/Constants';
-import {Address} from './Home';
 
 export interface UserRegisterProps {
   username: string;
@@ -21,7 +20,6 @@ export interface UserCustomer {
   name: string;
   phone: string;
   email: string;
-  address: Address[];
   userId: string;
   user: UserProfile;
 }
@@ -46,7 +44,6 @@ export interface UserProfile {
   avatar: string;
   email: string;
   phone: string;
-  address: Address[];
   deliveryLocation: string;
   roleId: string;
   role: Role;

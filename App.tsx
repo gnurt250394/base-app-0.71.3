@@ -6,7 +6,6 @@
  * @flow strict-local
  */
 
-import NetworkProvider from 'apollo/NetworkProvider';
 import {LocalizationProvider} from 'assets/languages/Translations';
 import LoadingComponent from 'components/Loading/LoadingComponent';
 import LoadingManager from 'components/Loading/LoadingManager';
@@ -36,15 +35,13 @@ const App = () => {
       <PersistGate loading={null} persistor={persistor}>
         <LocalizationProvider>
           <RootView>
-            <NetworkProvider>
-              <NotificationConfig>
-                <MenuProvider>
-                  <RootApp />
-                  <FlashMessage style={{paddingTop: 20}} />
-                </MenuProvider>
-                <LoadingComponent ref={loadingRef} />
-              </NotificationConfig>
-            </NetworkProvider>
+            <NotificationConfig>
+              <MenuProvider>
+                <RootApp />
+                <FlashMessage style={{paddingTop: 20}} />
+              </MenuProvider>
+              <LoadingComponent ref={loadingRef} />
+            </NotificationConfig>
           </RootView>
         </LocalizationProvider>
       </PersistGate>
