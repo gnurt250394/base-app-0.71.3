@@ -1,7 +1,0 @@
-<resources>
-    <string name="app_name">orderhanquoc</string>
-    <string name="default_notification_channel_id">jay-channel</string>
-    <string name="appCenterAnalytics_whenToEnableAnalytics" moduleConfig="true" translatable="false">ALWAYS_SEND</string>
-    <string name="appCenterCrashes_whenToSendCrashes" moduleConfig="true" translatable="false">ALWAYS_SEND</string>
-    <string moduleConfig="true" name="CodePushDeploymentKey">9DBVejjsV5ifDi0oyQ3Cb_ZkepCB-HDDeqLsK</string>
-</resources>
