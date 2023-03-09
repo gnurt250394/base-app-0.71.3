@@ -12,7 +12,11 @@ const CreateEmployeeScreen = (props: CreateEmployeeScreenProps) => {
   return (
     <Container title={'Thêm nhân viên'} style={styles.container}>
       <View>
-        <InputApp title={'a aa'} placeholder={'Họ và tên'} />
+        <InputApp
+          editable={true}
+          title={'Họ và tên'}
+          placeholder={'Họ và tên'}
+        />
       </View>
     </Container>
   );

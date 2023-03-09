@@ -81,6 +81,7 @@ const MainTab = memo(() => {
             borderTopRightRadius: scale(16),
           },
         }}
+        initialRouteName={Routes.EmployeeScreen}
         lazy={true}>
         <Tab.Screen name={Routes.HomeScreen} component={HomeScreen} />
         <Tab.Screen name={Routes.CategoryScreen} component={CategoriesScreen} />

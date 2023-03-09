@@ -1,5 +1,11 @@
-import React, {useState} from 'react';
-import {View, StyleSheet, FlatList, TouchableOpacity} from 'react-native';
+import React, {useEffect, useState} from 'react';
+import {
+  View,
+  StyleSheet,
+  FlatList,
+  TouchableOpacity,
+  ListRenderItem,
+} from 'react-native';
 import Container from 'elements/Layout/Container';
 import Text from 'elements/Text';
 import ButtonText from 'elements/Buttons/ButtonText';
@@ -12,38 +18,38 @@ import keyExtractor from 'utils/keyExtractor';
 import {BaseNavigationProps} from 'navigation/BaseNavigationProps';
 import {MainParamList} from 'navigation/service/NavigationParams';
 import Routes from 'configs/Routes';
+import EmployeeApi from 'network/apis/employee/EmployeeApi';
+import ResponseCode from 'network/ResponseCode';
+import {UserProfile} from 'res/type/Auth';
 
-interface EmployeeScreenProps {}
+interface EmployeeScreenProps {
+  data: UserProfile[];
+}
 
 const EmployeeScreen = (props: BaseNavigationProps<MainParamList>) => {
-  const [data, setData] = useState([
-    {
-      name: 'Nguyễn Văn A',
-      dob: '01/01/1999',
-      avatar:
-        'https://images2.content-hci.com/commimg/myhotcourses/blog/post/myhc_94265_255px.jpg',
-    },
-    {
-      name: 'Nguyễn Văn B',
-      dob: '01/01/1999',
-      avatar:
-        'https://indochinapost.com/wp-content/uploads/chuyen-phat-nhanh-tnt-di-anh.jpg',
-    },
-    {
-      name: 'Nguyễn Văn C',
-      dob: '01/01/1999',
-      avatar:
-        'https://indochinapost.com/wp-content/uploads/chuyen-phat-nhanh-tnt-di-anh.jpg',
-    },
-  ]);
-  const renderItem = ({item, index}) => {
+  const [data, setData] = useState<UserProfile[]>([]);
+
+  const getData = async () => {
+    let res = await EmployeeApi.getEmployees<EmployeeScreenProps>({
+      page: 0,
+      size: 10,
+    });
+    console.log('-> res', res);
+    if (res.status == ResponseCode.SUCCESS) {
+      setData(res.data?.data || []);
+    }
+  };
+  useEffect(() => {
+    getData();
+  }, []);
+  const renderItem: ListRenderItem<UserProfile> = ({item}) => {
     return (
       <TouchableOpacity
         style={[
           Theme.center,
           {
             backgroundColor: colors.secondary,
-            marginTop: 10,
+            marginBottom: 10,
             borderRadius: 10,
             padding: 15,
           },
@@ -96,7 +102,7 @@ const EmployeeScreen = (props: BaseNavigationProps<MainParamList>) => {
           editable={true}
           iconLeft={<Image source={images.ic_search} />}
         />
-        <View style={Theme.flex1}>
+        <View style={[Theme.flex1, Theme.pt20]}>
           <FlatList
             data={data}
             renderItem={renderItem}

@@ -242,10 +242,6 @@ const styles = StyleSheet.create({
     borderColor: colors.borderFocus,
   },
   containerInput: {
-    borderColor: colors.border,
-    borderWidth: 1,
-    padding: 10,
-    borderRadius: 8,
     paddingBottom: 0,
     marginBottom: 0,
     flexDirection: 'row',
@@ -257,7 +253,10 @@ const styles = StyleSheet.create({
   container2: {},
   container: {
     justifyContent: 'center',
-    paddingRight: 16,
+    borderColor: colors.border,
+    borderWidth: 1,
+    borderRadius: 8,
+    padding: 10,
     ...Theme.flexRow,
   },
   iconView: {

@@ -12,7 +12,7 @@
     "clean:ios": "cd ios && xcodebuild clean && cd ../",
     "aab": "npx jetify && cd android && ./gradlew clean build && ./gradlew bundleRelease && cd ../",
     "apk": "npx jetify && cd android && ./gradlew clean build && ./gradlew assembleRelease && cd ../",
-    "postinstall": "react-native setup-ios-permissions && npx typesync && RCT_NEW_ARCH_ENABLED=1  npx pod-install ios",
+    "postinstall": "npx patch-package && react-native setup-ios-permissions && npx typesync && RCT_NEW_ARCH_ENABLED=1  npx pod-install ios",
     "genimg": "node genimg src/assets/images --output src/res/images.ts --name images",
     "build:android": "cd ./android && fastlane uploadAPK && cd ../",
     "build:ios": "cd ./ios && fastlane uploadIPA && cd ../",

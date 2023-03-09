@@ -40,23 +40,12 @@ export interface Bank {
 export interface UserProfile {
   id: string;
   username: string;
-  fullName: string;
-  avatar: string;
-  email: string;
+  name: string;
+  avatar?: string;
+  email?: string;
   phone: string;
-  deliveryLocation: string;
-  roleId: string;
-  role: Role;
-  permissionId: string[];
-  permissions: Permission[];
+  dob?: string;
+  position?: string;
   createdAt: string;
   updatedAt: string;
-  isDel: boolean;
-  isWholeSale: boolean;
-  isRequestingWholeSale: boolean;
-  bank: Bank[];
-  referrerPhone: string;
-  referrer: UserProfile;
-  customerIds: string[];
-  customers: UserCustomer[];
 }
