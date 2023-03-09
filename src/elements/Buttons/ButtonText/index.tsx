@@ -57,7 +57,7 @@ const ButtonText = memo(
             backgroundColor: disabled
               ? String(backgroundColor) + '70'
               : backgroundColor || theme.backgroundItem,
-            height: height ? height : 58,
+            height: height ? height : 42,
           },
           style,
         ]}

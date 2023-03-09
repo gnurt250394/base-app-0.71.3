@@ -1,30 +1,32 @@
 import {createBottomTabNavigator} from '@react-navigation/bottom-tabs';
 import {Routes} from 'configs';
-import Image from 'elements/Image';
 import {RootReducer} from 'middlewares/reducers';
 import React, {memo} from 'react';
 import {View} from 'react-native';
 import {useSelector} from 'react-redux';
 import colors from 'res/colors';
-import images from 'res/images';
 import scale from 'utils/scale';
-import HomeStack from './HomeStack';
+import Icon from 'react-native-vector-icons/FontAwesome'
+import CategoriesScreen from "screens/categories/CategoriesScreen";
+import AccountScreen from "screens/account/AccountScreen";
+import HomeScreen from "screens/home/HomeScreen";
+import EmployeeScreen from "screens/employee/EmployeeScreen";
 
 const Tab = createBottomTabNavigator();
 const MainTab = memo(() => {
   const userProfile = useSelector((state: RootReducer) => state.userProfile);
   const renderLabel = (routeName: string) => {
     switch (routeName) {
-      case Routes.HomeStack:
+      case Routes.HomeScreen:
         return 'Trang chủ';
-      case Routes.PostStack:
-        return 'Bài viết';
-      case Routes.CategoryStack:
+      case Routes.CategoryScreen:
         return 'Danh mục';
-      case Routes.NotificationStack:
+      case Routes.NotificationScreen:
         return 'Thông báo';
-      case Routes.AccountStack:
+      case Routes.AccountScreen:
         return 'Cá nhân';
+      case Routes.EmployeeScreen:
+        return 'Nhân viên';
 
       default:
         return 'Trang chủ';
@@ -43,31 +45,20 @@ const MainTab = memo(() => {
         screenOptions={({route}) => ({
           title: renderLabel(route.name),
           tabBarIcon: ({focused}) => {
-            let iconName;
+            let iconName='';
 
             switch (route.name) {
-              case Routes.HomeStack:
-                iconName = focused
-                  ? images.ic_home_active
-                  : images.ic_home_normal;
+              case Routes.HomeScreen:
+                iconName =  'home'
                 break;
-              case Routes.CategoryStack:
-                iconName = focused
-                  ? images.ic_category_active
-                  : images.ic_category_normal;
+              case Routes.CategoryScreen:
+                iconName = 'legal';
                 break;
-              case Routes.NotificationStack:
-                iconName = focused
-                  ? images.ic_notification_normal
-                  : images.ic_notification_normal;
+              case Routes.EmployeeScreen:
+                iconName = 'users';
                 break;
-              case Routes.PostStack:
-                iconName = focused ? images.ic_post_active : images.ic_post;
-                break;
-              case Routes.AccountStack:
-                iconName = focused
-                  ? images.ic_account_active
-                  : images.ic_account_normal;
+              case Routes.AccountScreen:
+                iconName = 'user';
                 break;
 
               default:
@@ -75,7 +66,7 @@ const MainTab = memo(() => {
             }
 
             // You can return any component that you like here!
-            return <Image source={iconName} />;
+            return <Icon name={iconName} size={20} color={focused? colors.primary:colors.gray}/>;
           },
         })}
         tabBarOptions={{
@@ -91,7 +82,10 @@ const MainTab = memo(() => {
           },
         }}
         lazy={true}>
-        <Tab.Screen name={Routes.HomeStack} component={HomeStack} />
+        <Tab.Screen name={Routes.HomeScreen} component={HomeScreen} />
+        <Tab.Screen name={Routes.CategoryScreen} component={CategoriesScreen} />
+        <Tab.Screen name={Routes.EmployeeScreen} component={EmployeeScreen} />
+        <Tab.Screen name={Routes.AccountScreen} component={AccountScreen} />
       </Tab.Navigator>
     </View>
   );

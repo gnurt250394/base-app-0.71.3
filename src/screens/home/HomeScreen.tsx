@@ -1,14 +1,15 @@
 import React, {useState} from 'react';
 import {Text, View, StyleSheet} from 'react-native';
+import Container from "elements/Layout/Container";
 
 interface HomeScreenProps {}
 
 const HomeScreen = (props: HomeScreenProps) => {
   const [state, setState] = useState();
   return (
-    <View style={styles.container}>
+    <Container style={styles.container}>
       <Text>HomeScreen</Text>
-    </View>
+    </Container>
   );
 };
 

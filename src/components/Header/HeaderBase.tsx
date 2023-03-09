@@ -1,23 +1,13 @@
-import {useLazyQuery, useQuery} from '@apollo/client';
+import {useLazyQuery} from '@apollo/client';
 import {useNavigation} from '@react-navigation/native';
-import {useCheckAuth} from 'apollo/query/ApiAuth';
-import {CART_COUNT_QUERY} from 'apollo/query/ApiCart';
 import {Routes} from 'configs';
-import ButtonIcon from 'elements/Buttons/ButtonIcon';
 import ButtonIconHeader from 'elements/Buttons/ButtonIconHeader';
 import Text from 'elements/Text';
 import {onAddCountCart} from 'middlewares/actions/cart/actionCart';
 import {RootReducer} from 'middlewares/reducers';
 import {navigate} from 'navigation/service/RootNavigation';
 import React, {useEffect} from 'react';
-import {
-  ImageSourcePropType,
-  SafeAreaView,
-  StyleProp,
-  StyleSheet,
-  View,
-  ViewStyle,
-} from 'react-native';
+import {ImageSourcePropType, SafeAreaView, StyleProp, StyleSheet, View, ViewStyle,} from 'react-native';
 import {useDispatch, useSelector} from 'react-redux';
 import colors from 'res/colors';
 import images from 'res/images';
@@ -49,12 +39,8 @@ const HeaderBase = ({
   const cart = useSelector((state: RootReducer) => state.cart);
   const userProfile = useSelector((state: RootReducer) => state.userProfile);
   const dispatch = useDispatch();
-  const [getData, {data, error, loading}] = useLazyQuery(CART_COUNT_QUERY, {
-    // fetchPolicy: 'network-only',
-  });
   useEffect(() => {
     const unsubscribe = router.addListener('focus', () => {
-      getData();
       // The screen is focused
       // Call any action
     });
@@ -62,11 +48,6 @@ const HeaderBase = ({
     // Return the function to unsubscribe from the event so it gets removed on unmount
     return unsubscribe;
   }, [router]);
-  useEffect(() => {
-    if (data?.getCartCount?.success) {
-      dispatch(onAddCountCart(data?.getCartCount.result));
-    }
-  }, [data]);
 
   const onPressBack = () => (onBack ? onBack() : router.goBack());
   const onSearchCategory = () => router.navigate(Routes.SearchCategoryScreen);
